@@ -5,7 +5,9 @@
 ## 一.时间触发
 定时执行  
 设定某一时间点，pipeline 到点就触发。
-在这里会涉及到 cron 表达式，可参考[菜鸟的教程](https://www.runoob.com/w3cnote/linux-crontab-tasks.html)，或者搜搜别人写的文章,也可以到这个网站玩玩[cron表达式体验站](https://crontab.guru/)。  
+在这里会涉及到 cron 表达式，可参考[菜鸟的教程](https://www.runoob.com/w3cnote/linux-crontab-tasks.html)，或者搜搜别人写的文章,也可以到这个网站玩玩[cron表达式体验站](https://crontab.guru/)。    
+![image](https://github.com/786788808/Pipeline/assets/32427537/8db3e2cc-951d-4335-b9e9-aeb2bb6f41ca)  
+
 pipeline 里用到的 cron 语法，跟 unix cron 的语法有轻微区别，但大差不差。  
 比如，我想要 pipeline A 在 12 月的 14,15,16 号的 23:30 开始 trigger。这时候，可以在 Jenkins file 里面设置，也可以在 Jenkins Pipeline UI 设置。条条大路通罗马，任君选择。    
 
